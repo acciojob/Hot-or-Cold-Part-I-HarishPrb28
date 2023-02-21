@@ -1,7 +1,7 @@
 //your code here
 let num = document.getElementById("num")
 let respond = document.getElementById("respond")
-let rnum = Math.floor(Math.random()*100)
+let rnum = Math.floor(Math.random()*100)+1
 	console.log(rnum)
 function guessNum(){
 let guess = document.getElementById("guess").value
